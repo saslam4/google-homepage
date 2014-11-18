@@ -1,0 +1,125 @@
+/*
+* {
+    border: 1px dashed blue;
+}
+*/
+#topMenu {
+
+    height: 5em;
+    width: 100%;
+}
+
+.topIcons {
+    float: right;
+    height: 5em;
+    margin-top: 1em;
+    width: 3%;
+}
+#drawerIcon, #imagesIcon, #mailIcon {
+    position: relative;
+    top: .7em;
+    margin-left: .7em;
+}
+#imagesIcon, #mailIcon {
+    text-decoration: none;
+    color: black;
+}
+
+#google {
+    width: 19em;
+    position: relative;
+    top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.google {
+    font-size: 6em;
+}
+#letterG {
+    color: #5e44ff;
+}
+#letterO {
+    color: #ff0c46;
+}
+#letterSecondO {
+    color: #ffac14;
+}
+#letterSecondG {
+    color: #5e44ff;
+}
+#letterL {
+    color: #21b700;
+}
+#letterE {
+    color: #ff0c46;
+}
+#etInput {
+    top: 7em;
+    margin: 0 36%;
+    position: relative;
+    /*background-color: #21b700;*/
+    width: 500px;
+}
+input {
+    width: 100%;
+}
+#inputId, #inputBtn {
+    margin: 0;
+}
+#inputBtn {
+    /* image replacement */
+    text-indent: -99999px; /*probably not needed*/
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 36em;
+    bottom: 1.5em;
+    display: inline;
+    background: gray url("../res/imgs/microphone-icon.jpg") 0 0 no-repeat;
+
+    /* placing next to input using float or absolute positioning omitted ... */
+}
+
+#btnSearchLucky {
+    position: relative;
+    top: 100px;
+    height: 2em;
+    width: 100%;
+
+}
+a {
+    text-decoration: none;
+    color: #100928;
+    border-radius: 3px;
+    background-color: darkgrey;
+}
+#btnSearch > p {
+    position: relative;
+    display:inline ;
+    border-radius: 3px;
+    left: 45em;
+    height:inherit;
+    width: 90px;
+    border: thin #100928;
+    background-color: darkgrey;
+    font: bold;
+}
+#btnLucky> p {
+
+    position: relative;
+    /*display:inline ;*/
+    border-radius: 3px;
+    left: 54em;
+    bottom: 2.2em;
+    height:inherit;
+    width: 120px;
+    border: thin #100928;
+    background-color: darkgrey;
+    font: bold;
+}
+
+
+
+
+
+
